@@ -18,7 +18,7 @@ namespace Desafio_de_Projeto.Models
         public void CadastrarHospedes(List<Pessoas> hospedes)
         {
             int capacidade = 2;
-            if (capacidade >= 2)
+            if (capacidade <= 2)
             {
                 Hospedes = hospedes;
             }
